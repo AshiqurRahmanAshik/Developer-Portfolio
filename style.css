@@ -10,6 +10,9 @@
 .text-primary {
   color: #fd6e0a;
 }
+.secondary-bg{
+  background-color:#FFF8F3;
+}
 nav {
   display: flex;
   align-items: center;
@@ -38,6 +41,7 @@ nav ul {
 .btn-primary {
   background-color: #fd6e0a;
   border: none;
+  font-size: large;
   font-weight: bold;
   color: white;
   padding: 18px 35px;
@@ -51,6 +55,10 @@ nav ul {
 .banner-title {
   font-size: 50px;
   font-weight: bold;
+}
+.banner-description{
+  font-size: larger;
+  font-style: italic;
 }
 .banner-profile-pic {
   width: 580px;
@@ -67,4 +75,27 @@ nav ul {
   background-image: url(images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
+}
+/* main styles */
+.main{
+  max-width:1140px;
+  margin: 0  auto;
+}
+/* About Me */
+.About{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding:50px 50px ;
+  text-align: center;
+  margin-top: 100px;
+  border-color: #474747;
+  border-style: solid;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+.item-description{
+  font-weight: lighter;
 }

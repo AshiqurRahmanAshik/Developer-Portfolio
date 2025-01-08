@@ -88,6 +88,7 @@ nav ul {
   padding:50px 50px ;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 100px;
   border-color: #474747;
   border-style: solid;
 }
@@ -98,4 +99,26 @@ nav ul {
 }
 .item-description{
   font-weight: lighter;
+}
+.text-center{
+text-align: center;
+padding: 25px;
+border-style: dotted;
+border-radius: 10px;
+}
+.logo{
+  height: 100px;
+
+}
+
+.skill-container{
+  display: flex;
+  
+}
+.skills-text-center{
+  padding: 25px;
+  background-color: rgb(147, 238, 207);
+  border-style:solid;
+  border-radius: 5px;
+  text-align: center;
 }
